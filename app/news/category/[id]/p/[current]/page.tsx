@@ -1,3 +1,4 @@
+import { getCategoryDetail } from "@/app/_libs/microcms";
 import { notFound } from "next/navigation";
 import { getNewsList } from "@/app/_libs/microcms";
 import NewsList from "@/app/_components/NewsList";
